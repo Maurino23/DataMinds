@@ -3,8 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained Random Forest model
-model_path = 'D:\RINO\LOMBA\ICONIC IT 2024\Streamlit\model_rf.pkl'  # Update this path with the correct path to your model
-with open(model_path, 'rb') as file:
+with open('model_rf.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the scaler
@@ -51,7 +50,7 @@ class_mapping = {
 # )
 
 # App header
-st.image("D:\RINO\LOMBA\ICONIC IT 2024\Streamlit\Landscape_DataMind.png", width=800)  # Update the path to your logo image
+st.image("Landscape_DataMind.png", width=800)  # Update the path to your logo image
 st.title("DataMinds - Personalized Learning Pathways")
 
 # Input form with two columns
