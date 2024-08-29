@@ -20,35 +20,6 @@ class_mapping = {
     5: "Beginner Front End"
 }
 
-# # Set up the Streamlit app layout and style
-# st.set_page_config(page_title="DataMinds - Personalized Learning Pathways", layout="centered")
-# st.markdown(
-#     """
-#     <style>
-#     .main {
-#         background-color: #f0f2f6;
-#         font-family: Arial, sans-serif;
-#     }
-#     header, .reportview-container {
-#         background: linear-gradient(to right, #0052cc, #4c6ef5);
-#     }
-#     header h1, .reportview-container h1 {
-#         color: white;
-#         font-size: 30px;
-#         text-align: center;
-#         margin-bottom: 20px;
-#     }
-#     .stButton button {
-#         background-color: #0052cc;
-#         color: white;
-#         border-radius: 4px;
-#         padding: 8px 20px;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-# )
-
 # App header
 st.image("Landscape_DataMind.png", width=800)  # Update the path to your logo image
 st.title("DataMinds - Personalized Learning Pathways")
